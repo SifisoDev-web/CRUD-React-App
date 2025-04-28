@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 14",
+      "brand": "Apple",
+      "description": "The latest iPhone with A15 Bionic chip and a stunning OLED display.",
+      "amount": 12000,
+      "createdAt": "2025-04-28T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S22",
+      "brand": "Samsung",
+      "description": "A top-tier Android phone with a smooth AMOLED display and Snapdragon 8 Gen 1 processor.",
+      "amount": 10000,
+      "createdAt": "2025-04-28T11:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Google Pixel 6",
+      "brand": "Google",
+      "description": "Google’s flagship phone with the Tensor chip and excellent camera performance.",
+      "amount": 8500,
+      "createdAt": "2025-04-28T12:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "OnePlus 10 Pro",
+      "brand": "OnePlus",
+      "description": "The latest OnePlus phone with a fast Snapdragon 8 Gen 1 chip and fast charging.",
+      "amount": 13000,
+      "createdAt": "2025-04-28T13:00:00Z"
+    },
+    {
+      "name": "iphone 15",
+      "amount": 26000,
+      "description": "he latest iPhone with A15 Bionic chip and a stunning OLED display.",
+      "createdAt": "2025-04-28",
+      "id": "b16b"
+    }
+  ]
+}

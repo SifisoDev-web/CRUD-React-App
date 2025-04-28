@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# 📚 React CRUD Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **simple React CRUD application** that manages a list of products using a fake REST API powered by **JSON Server**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+- GitHub: [Sifiso Wiseman](https://github.com/SifisoDev-web)
 
-### `npm start`
+## 🚀 Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React JS (Frontend)
+- JSON Server (Fake Backend API)
+- Bootstrap (for styling)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📥 Requirements
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before running this project, make sure you have installed:
 
-### `npm run build`
+- [Node.js and npm](https://nodejs.org/en/)
+- A code editor like [VSCode](https://code.visualstudio.com/)
+- Git (optional)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Installations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository** or copy your project files.
 
-### `npm run eject`
+2. **Navigate** to your project folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd your-project-folder
+Install React dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy
+Edit
+npm install
+Install JSON Server globally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+Copy
+Edit
+npm install -g json-server
+ 
+🛠 How to Run
+1. Start JSON Server
+In your project folder:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy
+Edit
+json-server --watch db.json --port 5000
+API will run at: http://localhost:5000/products
 
-## Learn More
+2. Start the React App
+In another terminal:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy
+Edit
+npm start
+React app will open at: http://localhost:3000/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔥 Features
+Create a product
 
-### Code Splitting
+View products
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Update product details
 
-### Analyzing the Bundle Size
+Delete products
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Instant updates without page reload
 
-### Making a Progressive Web App
+⚙️ API Endpoints
+GET /products — Get all products
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+POST /products — Add new product
 
-### Advanced Configuration
+PUT /products/:id — Edit product
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+DELETE /products/:id — Delete product
 
-### Deployment
+🛑 Notes
+Make sure both JSON Server and React App are running.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Default API URL is http://localhost:5000/products.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you change the port, update the URLs inside Products.js.
