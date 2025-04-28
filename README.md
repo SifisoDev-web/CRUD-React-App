@@ -31,7 +31,7 @@ Before running this project, make sure you have installed:
 2. **Navigate** to your project folder:
 
    ```bash
-   cd your-project-folder
+   cd crud-app
 Install React dependencies:
 
 bash
